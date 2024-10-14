@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishara Bandara | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMT5BmxuT5Z7gGVsD4FfLxrE2wF3gqYhBcRVD5" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff; /* White background */
+            color: #333; /* Dark text color */
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end; /* Aligning navbar to the right */
+            width: 100%;
+            background-color: #7b2cbf; /* Purple color */
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #ffffff; /* White text */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #5a189a; /* Darker purple on hover */
+        }
+        /* Square Image with Modern Frame */
+        header img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover; /* Keeps image square */
+            border: 5px solid #7b2cbf; /* Frame color */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Shadow for a sleek look */
+            border-radius: 15px; /* Rounded corners */
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #7b2cbf; /* Purple */
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            text-align: left; /* Left align text */
+            margin: 50px 0;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #7b2cbf; /* Purple */
+            border-bottom: 2px solid #7b2cbf; /* Purple underline */
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+        }
+        .skills span {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .skills progress {
+            width: 100%;
+            height: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #7b2cbf; /* Purple footer */
+            color: #ffffff; /* White text */
+            width: 100%; /* Full width */
+        }
+        a {
+            color: #7b2cbf; /* Purple */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Profile Section -->
+    <header>
+        <h1>Krishara Bandara</h1>
+        <img src="Image_H B M C K Bandara.jpeg" alt="Krishara Bandara">
+        <p>Full Stack Developer</p>
+        <p>Currently working at V2T Company (Internship)</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate developer with experience in web and mobile app development. I love creating beautiful and functional websites. To work in a progressive and dynamic organization where I can utilize and enhance my abilities to achieve the organization's vision and goals along with my personal goals, and also to gather some work experience for my life.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>BIT(Hons) in Networking and Mobile Computing - Horizon Campus</li>
+                <li>Diploma in English Language - British Council Kandy</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>HTML5 / CSS3 / JavaScript / Bootstrap</span>
+                <progress value="95" max="100"></progress>
+                <span>Python / Flask</span>
+                <progress value="90" max="100"></progress>
+                <span>Mobile Application Development</span>
+                <progress value="70" max="100"></progress>
+                <span>UI / UX / Figma</span>
+                <progress value="95" max="100"></progress>
+                <span>Blender</span>
+                <progress value="70" max="100"></progress>
+                <span>QA / Testing - Manual</span>
+                <progress value="88" max="100"></progress>
+                <span>Project Management / Agile / Scrum</span>
+                <progress value="97" max="100"></progress>
+                
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Educational Website:</strong> Designed and created an educational website using HTML and CSS, featuring grammar lessons, activities, and registrations.
+                    
+                </li>
+                <li>
+                    <strong>Train Tickets Booking System:</strong> A web-based system created with a team to manage train ticket bookings.
+                   
+                </li>
+                <li>
+                    <strong>Fabric Stain Detection App:</strong> An Android app using machine learning to detect fabric stains (Team project).
+                    <a href="https://github.com/RasinduMileesha/Fabric_Stain_Detection-Android_app-Machine_Learning-Tensorflow.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </li>
+                <li>
+                    <strong>Country Details Retrieval System:</strong> A RESTful web service that shows country details and daily COVID-19 updates.
+                    <a href="https://github.com/KrisharaB99/REST_API-based-project.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </li>
+                <li>
+                    <strong>Hotel Management System:</strong> A hotel management website using HTML, PHP, and CSS.
+                    <a href="https://github.com/KrisharaB99/Hotel-Management-System.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </li>
+                <li>
+                    <strong>Paw Planner_Pet Care Website:</strong> A Pet Care Management and Appointment Scheduling Website using HTML, PHP, and CSS.
+                    <a href="" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Address:</strong> Kandy, Sri Lanka</p>
+            <p><strong>Email:</strong> <a href="mailto:krisharahbmbandara@gmail.com">krisharahbmbandara@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Krishara Bandara | Full Stack Developer</p>
+    </footer>
+
+</body>
+</html>
